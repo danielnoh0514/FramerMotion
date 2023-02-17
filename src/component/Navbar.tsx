@@ -67,6 +67,9 @@ function Navbar() {
         <NavLink activeClassName="nav" exact to="/overlay">
           <Span>Overlay</Span>
         </NavLink>
+        <NavLink activeClassName="nav" exact to="/overlayplus">
+          <Span>Overlay+</Span>{" "}
+        </NavLink>
         <NavLink activeClassName="nav" exact to="/prisonbox">
           <Span>Prison Box</Span>
         </NavLink>

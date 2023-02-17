@@ -3,6 +3,7 @@ import Drag from "./router/Drag";
 import Home from "./router/Home";
 import Outline from "./router/Outline";
 import Overlay from "./router/Overlay";
+import OverlayPlus from "./router/OverlayPlus";
 import PrisonBox from "./router/PrisonBox";
 import Scroll from "./router/Scroll";
 import Slider from "./router/Slider";
@@ -20,6 +21,9 @@ function Router() {
         </Route>
         <Route path={"/overlay"}>
           <Overlay />
+        </Route>
+        <Route path={"/overlayplus"}>
+          <OverlayPlus />
         </Route>
         <Route path={"/prisonbox"}>
           <PrisonBox />
